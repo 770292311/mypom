@@ -1,0 +1,9 @@
+server:
+  port: 8089
+
+
+spring:
+  profiles:
+    active: @activeProfile@
+#    为什么这里使用@..@而不使用${},因为springboot框架本身也有使用${},可能会存在冲突
+#    active: dev
