@@ -24,5 +24,6 @@ public class TestController {
 
     public static void main(String[] args) {
         System.out.println("hhhhs");
+        System.out.println("sss");
     }
 }
