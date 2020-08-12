@@ -20,4 +20,9 @@ public class TestController {
     public String test(){
         return "hello pom:"+strValue;
     }
+
+
+    public static void main(String[] args) {
+        System.out.println("hhhh");
+    }
 }
