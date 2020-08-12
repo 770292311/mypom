@@ -18,7 +18,7 @@ public class TestController {
     private String strValue;
     @GetMapping(value = "/test")
     public String test(){
-        return "hello pom:"+strValue;
+        return "hello pom xxxxx11:"+strValue;
     }
 
 
